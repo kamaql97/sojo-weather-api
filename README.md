@@ -19,7 +19,7 @@ WEATHER_API_KEY=123456....
 ```
 ---
 
-## Deployment
+## Local Deployment
 You may run the application via Docker or directly on the host machine
 
 ### **Option A** - Deploy via Docker _(Recommended)_
@@ -44,7 +44,7 @@ You may run the application via Docker or directly on the host machine
 
 ## Usage
 
-Make an HTTP `GET` request and provide a location as a query parameter, for example: `/weather?location=London`
+Make an HTTP `GET` request and provide a location as a query parameter, for example: `/weather?city=London`
 
 _The full API documentation can be accessed locally via http://localhost:8000/docs_
 
